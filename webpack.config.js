@@ -5,6 +5,8 @@ const jqueryPath = path.resolve(__dirname, "node_modules/jquery/dist/jquery.js")
 
 module.exports = (_, argv) => {
   const isProduction = argv.mode === "production";
+  const parsedPort = Number.parseInt(process.env.PORT ?? "", 10);
+  const devServerPort = Number.isInteger(parsedPort) ? parsedPort : "auto";
 
   return {
     entry: "./src/index.js",
@@ -20,7 +22,7 @@ module.exports = (_, argv) => {
         directory: path.resolve(__dirname, "dist")
       },
       host: "0.0.0.0",
-      port: 8080,
+      port: devServerPort,
       hot: true,
       open: false,
       historyApiFallback: true
