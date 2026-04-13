@@ -1,0 +1,40 @@
+{
+  "name": "dr-beyrek-spa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Webpack-based SPA for Dr. Beyrek Abbaszade",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "webpack",
+    "bootstrap",
+    "jquery",
+    "slick-slider",
+    "wowjs",
+    "odometer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^10.4.27",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.6",
+    "jquery": "^3.7.1",
+    "mini-css-extract-plugin": "^2.10.2",
+    "odometer": "^0.4.8",
+    "postcss": "^8.5.9",
+    "postcss-loader": "^8.2.1",
+    "sass": "^1.99.0",
+    "sass-loader": "^16.0.7",
+    "slick-carousel": "^1.8.1",
+    "webpack": "^5.106.1",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3",
+    "wowjs": "^1.1.3"
+  }
+}
