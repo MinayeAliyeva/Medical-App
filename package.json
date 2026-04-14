@@ -1,8 +1,8 @@
 {
-  "name": "dr-beyrek-spa",
+  "name": "dr-anonim-spa",
   "version": "1.0.0",
   "private": true,
-  "description": "Webpack-based SPA for Dr. Beyrek Abbaszade",
+  "description": "Webpack-based SPA for Dr. Anonim",
   "scripts": {
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production"

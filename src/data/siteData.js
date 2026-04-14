@@ -1,25 +1,25 @@
 export const siteData = {
   seo: {
-    title: "Dr. Beyrək Abbaszadə | Ürək-Damar Cərrahı",
+    title: "Dr. Anonim | Ürək-Damar Cərrahı",
     description:
-      "Dr. Beyrək Abbaszadə üçün hazırlanmış SPA vebsayt: koronar bypass, aorta cərrahiyyəsi, qapaq əməliyyatları, minimal invaziv yanaşmalar, pasiyent hekayələri və əlaqə.",
+      "Dr. Anonim üçün hazırlanmış anonim SPA vebsayt: koronar bypass, aorta cərrahiyyəsi, qapaq əməliyyatları, minimal invaziv yanaşmalar, pasiyent hekayələri və əlaqə.",
     keywords: [
       "ürək əməliyyatı Bakı",
       "koronar bypass Azərbaycan",
       "açıq ürək əməliyyatı",
       "ürək damar cərrahı Bakı",
       "minimal invaziv ürək cərrahiyyəsi",
-      "Dr Beyrək Abbaszadə"
+      "Dr Anonim"
     ]
   },
   brand: {
-    name: "Dr. Beyrək Abbaszadə",
+    name: "Dr. Anonim",
     role: "Ürək-Damar Cərrahı",
     tagline: "Ürəyinizi Peşəkarlara Etibar Edin",
     subheading:
       "Açıq və qapalı ürək əməliyyatları, koronar bypass, aorta cərrahiyyəsi və anadangəlmə qüsurlar üçün beynəlxalq protokollara uyğun cərrahi yanaşma.",
     quickNote:
-      "Lux International Hospital, Mərkəzi Klinika və Şirvan Diaqnostik Mərkəzdə aktiv klinik fəaliyyət.",
+      "Mərkəzi klinika, şəhər filialı və regional diaqnostika mərkəzində aktiv klinik fəaliyyət.",
     ctaPrimary: {
       label: "Randevu Al",
       href: "#/elaqe"
@@ -29,8 +29,8 @@ export const siteData = {
       href: "#/xidmetler"
     },
     ctaCall: {
-      label: "3060 Zəng Et",
-      href: "tel:+994123060"
+      label: "Əlaqə üçün zəng et",
+      href: "tel:+994120000000"
     }
   },
   nav: [
@@ -48,65 +48,65 @@ export const siteData = {
     "/": {
       navId: "home",
       title: "Ana Səhifə",
-      seoTitle: "Dr. Beyrək Abbaszadə | Ana Səhifə",
+      seoTitle: "Dr. Anonim | Ana Səhifə",
       description:
         "Koronar bypass, aorta cərrahiyyəsi, qapaq əməliyyatları və minimal invaziv ürək cərrahiyyəsi üzrə əsas məlumatlar."
     },
     "/haqqinda": {
       navId: "about",
       title: "Haqqında",
-      seoTitle: "Dr. Beyrək Abbaszadə | Haqqında",
+      seoTitle: "Dr. Anonim | Haqqında",
       description:
-        "Dr. Beyrək Abbaszadənin peşəkar bioqrafiyası, nailiyyətləri, mentorluğu və beynəlxalq fəaliyyəti."
+        "Dr. Anonim haqqında peşəkar bioqrafiya, yanaşma və tibbi təcrübə məlumatları."
     },
     "/xidmetler": {
       navId: "services",
       title: "Xidmətlər",
-      seoTitle: "Dr. Beyrək Abbaszadə | Xidmətlər",
+      seoTitle: "Dr. Anonim | Xidmətlər",
       description:
         "Açıq ürək əməliyyatları, koronar bypass, minimal invaziv cərrahiyyə, aorta və periferik damar xidmətləri."
     },
     "/xestelikler": {
       navId: "conditions",
       title: "Xəstəliklər və Əlamətlər",
-      seoTitle: "Dr. Beyrək Abbaszadə | Xəstəliklər və Əlamətlər",
+      seoTitle: "Dr. Anonim | Xəstəliklər və Əlamətlər",
       description:
         "Ürək-damar xəstəliklərinin əsas əlamətləri, risk faktorları və klinik xəbərdarlıq siqnalları."
     },
     "/hekayeler": {
       navId: "stories",
       title: "Pasiyent Hekayələri",
-      seoTitle: "Dr. Beyrək Abbaszadə | Pasiyent Hekayələri",
+      seoTitle: "Dr. Anonim | Pasiyent Hekayələri",
       description:
         "Real klinik hallar, mürəkkəb əməliyyat nümunələri və pasiyent nəticələri."
     },
     "/faq": {
       navId: "faq",
       title: "Tez-tez Sorulan Suallar",
-      seoTitle: "Dr. Beyrək Abbaszadə | FAQ",
+      seoTitle: "Dr. Anonim | FAQ",
       description:
         "Ürək əməliyyatları, sağalma müddəti, hazırlıq və sığorta ilə bağlı ən çox sorulan suallar."
     },
     "/klinikalar": {
       navId: "clinics",
       title: "Klinikalar",
-      seoTitle: "Dr. Beyrək Abbaszadə | Klinikalar",
+      seoTitle: "Dr. Anonim | Klinikalar",
       description:
-        "Lux International Hospital, Mərkəzi Klinika və Şirvan Diaqnostik Mərkəz üzrə fəaliyyət və qəbul məlumatları."
+        "Əsas klinika, şəhər filialı və regional qəbul mərkəzi üzrə fəaliyyət və qəbul məlumatları."
     },
     "/bloq": {
       navId: "blog",
       title: "Bloq",
-      seoTitle: "Dr. Beyrək Abbaszadə | Bloq",
+      seoTitle: "Dr. Anonim | Bloq",
       description:
         "Ürək-damar cərrahiyyəsi, pasiyent maarifləndirilməsi və lokal SEO üçün planlaşdırılmış bloq mövzuları."
     },
     "/elaqe": {
       navId: "contact",
       title: "Əlaqə və Randevu",
-      seoTitle: "Dr. Beyrək Abbaszadə | Əlaqə",
+      seoTitle: "Dr. Anonim | Əlaqə",
       description:
-        "Lux International Hospital üzrə əlaqə məlumatları, qəbul saatları və randevu formu."
+        "Əlaqə məlumatları, qəbul saatları və randevu formu."
     }
   },
   stats: [
@@ -120,13 +120,13 @@ export const siteData = {
       label: "Tibb müəssisəsi",
       value: 3,
       suffix: "",
-      detail: "Bakı və Şirvan üzrə aktiv klinik fəaliyyət"
+      detail: "Paytaxt və region üzrə aktiv klinik fəaliyyət"
     },
     {
-      label: "Şirvanda ilk açıq ürək",
+      label: "Regional uğurlu əməliyyat",
       value: 1,
       suffix: "",
-      detail: "21 fevral 2024 tarixli tarixi klinik mərhələ"
+      detail: "Anonim klinik nümunə və uğurlu nəticə"
     },
     {
       label: "Peşəkar komanda",
@@ -137,22 +137,22 @@ export const siteData = {
   ],
   intro: {
     eyebrow: "Qısa Tanıtım",
-    title: "Şirvandan Bakıya qədər yüksək riskli ürək-damar halları üçün etibarlı cərrahi yanaşma",
+    title: "Yüksək riskli ürək-damar halları üçün etibarlı cərrahi yanaşma",
     paragraphs: [
-      "Dr. Beyrək Abbaszadə Azərbaycanda ürək-damar cərrahiyyəsi sahəsinin aparıcı mütəxəssislərindən biridir. Lux International Hospital, Mərkəzi Klinika və Şirvan Diaqnostik Mərkəzdə fəaliyyət göstərir.",
-      "Şirvan bölgəsində ilk açıq ürək əməliyyatını icra etməsi, minimal invaziv yanaşmaları tətbiq etməsi və xaricdə imtina edilmiş pasiyentlərdə uğurlu nəticələr qazanması bu klinik təcrübənin əsas göstəriciləridir."
+      "Dr. Anonim ürək-damar cərrahiyyəsi sahəsində geniş klinik təcrübəyə malik mütəxəssis kimi təqdim olunur və müxtəlif klinik platformalarda fəaliyyət göstərir.",
+      "Minimal invaziv yanaşmalar, açıq ürək əməliyyatları və mürəkkəb klinik hallarda fərdiləşdirilmiş qərarvermə bu anonim tibbi profilin əsas üstünlükləridir."
     ]
   },
   usp: [
     {
       icon: "bi-award",
-      title: "Azərbaycanda İlk",
-      text: "Şirvan bölgəsinin tibb tarixinə 21 fevral 2024-cü ildə ilk açıq ürək əməliyyatını yazan cərrah."
+      title: "Yenilikçi Yanaşma",
+      text: "Mürəkkəb hallar üçün müasir protokollara əsaslanan qərarvermə və cərrahi həllər."
     },
     {
       icon: "bi-globe2",
       title: "Beynəlxalq Görünürlük",
-      text: "AÜDCC üzvlüyü, Bakı Ürək Günləri konqresləri və Daşkənddə qonaq cərrah fəaliyyəti."
+      text: "Beynəlxalq tövsiyələrə uyğun klinik fəaliyyət və peşəkar inkişaf yanaşması."
     },
     {
       icon: "bi-heart-pulse",
@@ -168,26 +168,26 @@ export const siteData = {
   clinics: [
     {
       icon: "bi-hospital",
-      name: "Lux International Hospital",
-      location: "146A Faiq Yusifov küç., Bakı, AZ1052",
+      name: "Əsas Klinika",
+      location: "Bakı, Azərbaycan",
       details: "Əsas klinika və randevu mərkəzi",
-      phone: "3060 · 012 599 30 60 · 050 800 30 60",
-      email: "info@luxhospital.az",
-      link: "https://luxhospital.az/"
+      phone: "012 000 00 00 · 050 000 00 00",
+      email: "info@example.com",
+      link: "https://example.com/"
     },
     {
       icon: "bi-building",
-      name: "Mərkəzi Klinika",
+      name: "Şəhər Filialı",
       location: "Bakı",
       details: "Ürək-damar cərrahiyyəsi şöbəsi",
-      phone: "Qəbul üçün Lux International Hospital ilə əlaqə",
+      phone: "Qəbul üçün əsas klinika ilə əlaqə",
       email: "",
       link: ""
     },
     {
       icon: "bi-geo-alt",
-      name: "Şirvan Diaqnostik Mərkəz",
-      location: "Şirvan",
+      name: "Regional Diaqnostika Mərkəzi",
+      location: "Region",
       details: "İcbari Tibbi Sığorta ilə regionlarda kardio-cərrahiyyə xidməti",
       phone: "Regionlardan qəbul mövcuddur",
       email: "",
@@ -197,16 +197,16 @@ export const siteData = {
   testimonials: [
     {
       quote:
-        "Xaricdə əməliyyatdan imtina etdilər. Dr. Beyrək bizi qurtardı. İki ay sonra həyatımıza qayıtdıq.",
+        "Mürəkkəb vəziyyətdə düzgün yönləndirmə və uğurlu əməliyyatdan sonra normal həyata qayıtdıq.",
       author: "Pasiyent ailəsi"
     },
     {
       quote: "82 yaşında bypass keçirdim. 6 gün sonra evə getdim. Çox sağ olun, həkimim.",
-      author: "Hüseynqulu baba"
+      author: "Anonim pasiyent"
     },
     {
       quote: "4 damar bypass çox peşəkar aparıldı. Bütün göstəricilər normaldır.",
-      author: "Biləsuvar pasiyenti"
+      author: "Regional pasiyent"
     },
     {
       quote: "32 yaşında ASD ilə gəldim. 5 gün sonra evə yazıldım. Gözəl komanda.",
@@ -215,10 +215,10 @@ export const siteData = {
   ],
   about: {
     meta:
-      "Bakıda ürək-damar cərrahı Dr. Beyrək Abbaszadənin təhsil, mentorluq, klinik fəaliyyət və beynəlxalq təcrübəsi haqqında məlumat.",
+      "Dr. Anonim üçün hazırlanmış anonim ürək-damar cərrahı profili, klinik fəaliyyət və peşəkar təcrübə haqqında məlumat.",
     bio: [
-      "Dr. Beyrək Abbaszadə Azərbaycanın aparıcı ürək-damar cərrahlarından biridir. O, müasir cərrahi texnologiyaları tətbiq etməsi, mürəkkəb klinik halları həll etməsi və yüksək pasiyent məmnuniyyəti ilə seçilir.",
-      "Lux International Hospital, Mərkəzi Klinika və Şirvan Diaqnostik Mərkəzdə aktiv fəaliyyət göstərən Dr. Abbaszadə Azərbaycan Ürək-Damar Cərrahiyyəsi Cəmiyyətinin tam üzvüdür."
+      "Dr. Anonim müasir cərrahi texnologiyaları tətbiq etməsi, mürəkkəb klinik halları idarə etməsi və pasiyent yönümlü yanaşması ilə seçilən anonim tibbi profildir.",
+      "Əsas klinika, şəhər filialı və regional diaqnostika mərkəzində koordinasiyalı fəaliyyət göstərən bu profil peşəkar inkişaf və multidissiplinar əməkdaşlığı ön plana çıxarır."
     ],
     specializations: [
       "Açıq ürək əməliyyatları: koronar bypass, qapaq təmiri və dəyişdirilməsi",
@@ -230,27 +230,27 @@ export const siteData = {
     education: [
       {
         title: "Mentorluq",
-        text: "Prof. Kamran Kazımoğlu Musayev, Azərbaycanda ürək-damar cərrahiyyəsinin əsas nüfuzlarından biri."
+        text: "Tanınmış ürək-damar cərrahiyyəsi məktəbinin təcrübəli mentorlarından öyrənilmiş yanaşma."
       },
       {
         title: "Elmi Cəmiyyət",
-        text: "Azərbaycan Ürək-Damar Cərrahiyyəsi Cəmiyyəti (AÜDCC) – tam üzv."
+        text: "Peşəkar tibbi cəmiyyətlər və elmi platformalar ilə davamlı əməkdaşlıq."
       },
       {
         title: "Beynəlxalq Fəaliyyət",
-        text: "Shox Med Hospital, Daşkənd çərçivəsində qonaq cərrah və konsultant fəaliyyəti."
+        text: "Regional və beynəlxalq konsultasiya proqramlarında iştirak."
       }
     ],
     achievements: [
       {
         year: "21.02.2024",
-        title: "Şirvanda tarixi ilk açıq ürək əməliyyatı",
-        text: "TƏBİB nəzarəti və icbari tibbi sığorta çərçivəsində 55 yaşlı pasiyentdə uğurlu müdaxilə."
+        title: "Nümunəvi açıq ürək əməliyyatı",
+        text: "Kompleks klinik vəziyyətdə uğurlu müdaxilə və stabil postoperativ nəticə."
       },
       {
         year: "2024",
-        title: "AÜDCC 20 illik yubiley tədbiri",
-        text: "Azərbaycan ürək-damar cərrahiyyəsinin peşəkar platformalarında aktiv iştirak."
+        title: "Peşəkar tədbirlərdə iştirak",
+        text: "Elmi-praktik platformalarda aktiv təmsilçilik və təcrübə paylaşımı."
       },
       {
         year: "2024",
@@ -264,8 +264,8 @@ export const siteData = {
       },
       {
         year: "09.2024",
-        title: "Daşkənddə qonaq cərrah fəaliyyəti",
-        text: "Shox Med Hospital klinikasında pasiyentlər üçün beynəlxalq konsultasiya proqramı."
+        title: "Beynəlxalq konsultasiya fəaliyyəti",
+        text: "Xarici platformalarda konsultasiya və təcrübə mübadiləsi proqramları."
       },
       {
         year: "Nadir hal",
@@ -281,7 +281,7 @@ export const siteData = {
       {
         quote:
           "Hər bir həyat bizim üçün dəyərlidir. Pasiyentin üzündəki gülüş bizim ən böyük mükafatımızdır.",
-        author: "Dr. Beyrək Abbaszadə"
+        author: "Dr. Anonim"
       }
     ]
   },
@@ -517,10 +517,10 @@ export const siteData = {
         "Eyni seansda üç mərhələli kompleks əməliyyat icra olunaraq 6 gün sonra evə buraxıldı."
     },
     {
-      title: "Şirvanda icbari sığorta ilə ilk bypass",
+      title: "Regional mərkəzdə nümunəvi bypass",
       label: "21 fevral 2024",
       snapshot:
-        "55 yaşlı pasiyentdə Şirvan Diaqnostik Mərkəzdə 3 saatlıq ilk açıq ürək əməliyyatı icra olundu.",
+        "55 yaşlı pasiyentdə regional mərkəzdə 3 saatlıq açıq ürək əməliyyatı icra olundu.",
       outcome:
         "TƏBİB nəzarəti və multidissiplinar dəstək ilə pasiyent göstəriciləri stabilləşdi."
     },
@@ -585,9 +585,9 @@ export const siteData = {
         "Standart bypass əməliyyatından sonra xəstəxanada qalma 5-10 gün, tam reabilitasiya isə təxminən 6-12 həftə çəkə bilər. Minimal invaziv hallarda bu müddət daha qısa olur."
     },
     {
-      question: "Əməliyyatı icbari tibbi sığorta ilə etdirmək olurmu?",
+      question: "Əməliyyatı sığorta ilə etdirmək mümkündürmü?",
       answer:
-        "Bəli. Şirvan Diaqnostik Mərkəzdə icbari tibbi sığorta çərçivəsində açıq ürək əməliyyatları artıq icra olunur."
+        "Bəli. Bu, klinika və sığorta paketindən asılı olaraq dəyişir. Dəqiq məlumat üçün əvvəlcədən qəbul komandası ilə əlaqə saxlamaq tövsiyə olunur."
     },
     {
       question: "Ürək əməliyyatına hazırlaşarkən nə etməliyəm?",
@@ -599,30 +599,30 @@ export const siteData = {
     lead:
       "Sağlamlığınız üçün addımı sabaha saxlamayın. Randevu və ilkin dəyərləndirmə üçün aşağıdakı kanallardan istifadə edin.",
     mainClinic: {
-      name: "Lux International Hospital",
-      address: "146A Faiq Yusifov küç., Bakı, Azərbaycan, AZ1052",
-      shortPhone: "*3060 (daxili)",
-      phone1: "012 599 30 60",
-      phone2: "050 800 30 60",
-      email: "info@luxhospital.az",
-      website: "https://luxhospital.az/"
+      name: "Əsas Klinika",
+      address: "Bakı, Azərbaycan",
+      shortPhone: "*0000",
+      phone1: "012 000 00 00",
+      phone2: "050 000 00 00",
+      email: "info@example.com",
+      website: "https://example.com/"
     },
     secondaryClinics: [
-      "Mərkəzi Klinika, Bakı: ürək-damar cərrahiyyəsi şöbəsi",
-      "Şirvan Diaqnostik Mərkəz: regionlardan qəbul və İcbari Tibbi Sığorta xidməti",
-      "Shox Med Hospital, Daşkənd: beynəlxalq konsultasiya və qonaq cərrah fəaliyyəti"
+      "Şəhər filialı: ürək-damar cərrahiyyəsi şöbəsi",
+      "Regional diaqnostika mərkəzi: regionlardan qəbul xidməti",
+      "Beynəlxalq konsultasiya nöqtəsi: əlavə ikinci rəy xidməti"
     ],
     socials: [
-      { label: "Instagram", value: "@dr.beyrek", href: "https://www.instagram.com/dr.beyrek/" },
+      { label: "Instagram", value: "@dr.anonim", href: "https://example.com/instagram" },
       {
         label: "Facebook",
-        value: "Dr. Beyrək Abbaszadə",
-        href: "https://www.facebook.com/61550082035111"
+        value: "Dr. Anonim",
+        href: "https://example.com/facebook"
       },
-      { label: "Threads", value: "@dr.beyrek", href: "https://www.threads.com/@dr.beyrek" }
+      { label: "Threads", value: "@dr.anonim", href: "https://example.com/threads" }
     ],
     schedule: "Həftə içi 09:00 - 18:00 | Cümə axşamı 09:00 - 17:00",
-    emergency: "*3060 - 24/7 Lux International Hospital növbətçi xidməti"
+    emergency: "*0000 - 24/7 növbətçi məlumat xidməti"
   },
   appointmentFields: [
     "Ad Soyad",
@@ -708,9 +708,9 @@ export const siteData = {
         reason: "Niş və rəqabəti aşağı, tibbi dəyəri yüksək mövzu."
       },
       {
-        title: "Şirvanda Açıq Ürək Cərrahiyyəsi – Tarixi Hadisə",
-        keywords: "Şirvan ürək əməliyyatı, region kardio cərrahiyyə, TƏBİB",
-        reason: "PR və lokal SEO baxımından güclü mövzu."
+        title: "Regionlarda Ürək Cərrahiyyəsinə Çatım",
+        keywords: "region ürək əməliyyatı, kardio cərrahiyyə, qəbul",
+        reason: "Maarifləndirmə və xidmət əlçatanlığı baxımından güclü mövzu."
       },
       {
         title: "Eyni Seansda 3 Əməliyyat: Mümkündürmü?",
@@ -748,10 +748,10 @@ export const siteData = {
   },
   social: {
     intro:
-      "Instagram hesabı artıq aktivdir. Strategiya klinik hekayələr, maarifləndirmə və peşəkar nüfuzun paralel idarə olunmasına fokuslanır.",
+      "Sosial media strategiyası klinik hekayələr, maarifləndirmə və peşəkar nüfuzun paralel idarə olunmasına fokuslanır.",
     platforms: [
       {
-        platform: "Instagram @dr.beyrek",
+        platform: "Instagram @dr.anonim",
         type: "Klinik hekayələr, reels, infoqrafika, pasiyent rəyləri, konqres materialları",
         cadence: "Həftədə 3-5 post"
       },
@@ -761,7 +761,7 @@ export const siteData = {
         cadence: "Həftədə 2-3 post"
       },
       {
-        platform: "Threads @dr.beyrek",
+        platform: "Threads @dr.anonim",
         type: "Qısa tibbi faktlar, sual-cavab və gündəlik müşahidələr",
         cadence: "Gündə 1-2 post"
       },
@@ -772,12 +772,12 @@ export const siteData = {
       },
       {
         platform: "LinkedIn",
-        type: "Elmi nailiyyətlər, AÜDCC fəaliyyəti və beynəlxalq əməkdaşlıq",
+        type: "Elmi nailiyyətlər və beynəlxalq əməkdaşlıq",
         cadence: "Həftədə 1-2 post"
       }
     ],
     hashtags: {
-      main: ["#drbeyrək", "#ürəkdamarcərrahı", "#bakıürəkdamar", "#luxhospital", "#aüdcc"],
+      main: ["#dranonim", "#ürəkdamarcərrahı", "#ürəksağlamlığı", "#kardiocərrahiyyə", "#medicalwebsite"],
       operations: [
         "#koronarbypass",
         "#açıqürəkəməliyyatı",
@@ -792,20 +792,20 @@ export const siteData = {
         "#heartsurgery",
         "#kardiocərrahiyyə"
       ],
-      trending: ["#sağlamlıq", "#tibb", "#cərrah", "#bakı", "#azərbaycan", "#təbib"],
+      trending: ["#sağlamlıq", "#tibb", "#cərrah", "#klinika", "#azərbaycan", "#həkim"],
       global: ["#cardiacsurgeon", "#cardiosurgery", "#openheartsurgery", "#bypasssurgery", "#aorticsurgery"]
     },
     posts: [
-      "82 yaşlı Hüseynqulu babamıza aorta-koronar şuntlama x3 əməliyyatı icra etdik. Yaş yalnız rəqəmdir, ürəyinizi peşəkarlara etibar edin.",
+      "82 yaşlı pasiyentimizdə aorta-koronar şuntlama x3 əməliyyatı uğurla icra olundu. Yaş yalnız rəqəmdir, ürəyinizi peşəkarlara etibar edin.",
       "Sinə ağrısı, nəfəs darlığı, tez yorulma kimi əlamətlər koronar arter xəstəliyinin xəbərdarlıq siqnalları ola bilər. Erkən diaqnoz həyat qurtarır.",
-      "Daşkənddə Şox Med Hospital çərçivəsində beynəlxalq konsultasiyalar təşkil etdik. Azərbaycan təbabəti regional səviyyədə görünürlük qazanır.",
+      "Beynəlxalq konsultasiya platformalarında klinik təcrübə mübadiləsi aparıldı və pasiyent yönümlü yanaşmalar paylaşdıldı.",
       "38 yaşında ağır bypass keçirmiş pasiyentimizin kontrol müayinəsində göstəricilər tam normaldır. Pasiyent məmnuniyyəti ən güclü nəticədir."
     ],
     localSeo: [
       "Google Business Profile profilini tam doldurun",
       "NAP məlumatını bütün platformalarda eyni formatda saxlayın",
       "Google Maps xəritə və yol tarifi linki əlavə edin",
-      "AÜDCC və Lux International Hospital saytlarında profil linkləri qurun",
+      "Tərəfdaş klinika saytlarında profil linkləri qurun",
       "Instagram bio hissəsinə sayt linkini əlavə edin",
       "TƏBİB və yerli tibbi direktoriyalarda görünürlüğü yoxlayın"
     ]
@@ -822,10 +822,10 @@ export const siteData = {
       { term: "minimal invaziv ürək cərrahiyyəsi", volume: "Orta", competition: "Aşağı", priority: "4/5" }
     ],
     longTail: [
-      "dr beyrək abbaszadə",
-      "dr beyrek bakı ürək cərrahı",
-      "Lux International Hospital bypass əməliyyatı",
-      "Şirvanda ürək əməliyyatı",
+      "dr anonim",
+      "dr anonim ürək cərrahı",
+      "ürək cərrahiyyəsi klinika",
+      "region ürək əməliyyatı",
       "anadangəlmə ürək qüsuru müalicəsi Bakı",
       "koronar angioqrafiya qızıl standart",
       "ürək çatışmazlığı cərrahi müalicə",
@@ -869,39 +869,39 @@ export const siteData = {
   sources: [
     {
       label: "Instagram profili",
-      href: "https://www.instagram.com/dr.beyrek/"
+      href: "https://example.com/instagram"
     },
     {
       label: "Facebook səhifəsi",
-      href: "https://www.facebook.com/61550082035111"
+      href: "https://example.com/facebook"
     },
     {
       label: "Threads hesabı",
-      href: "https://www.threads.com/@dr.beyrek"
+      href: "https://example.com/threads"
     },
     {
-      label: "AÜDCC: Şirvanda ilk açıq ürək əməliyyatı",
-      href: "https://audcc.org.az/new/sirvan-ur%C9%99k-m%C9%99rk%C9%99zind%C9%99-ilk-d%C9%99f%C9%99-aciq-ur%C9%99k-%C9%99m%C9%99liyyati-icra-olunub"
+      label: "Elmi mənbə 1",
+      href: "https://example.com/source-1"
     },
     {
-      label: "AÜDCC: Aorta seminari",
-      href: "https://audcc.org.az/new/aorta-patologiyalarinin-mualic%C9%99sind%C9%99-multidissiplinar-muasir-yanasma-movzusunda-elmi-praktiki-seminar-kecirilib"
+      label: "Elmi mənbə 2",
+      href: "https://example.com/source-2"
     },
     {
-      label: "Lux International Hospital",
-      href: "https://luxhospital.az/"
+      label: "Klinika saytı",
+      href: "https://example.com/"
     },
     {
-      label: "Modern.az xəbəri",
-      href: "https://modern.az/az/aktual/457054/shirvanda-ilk-defe-achiq-urek-emelivyati-edilib/"
+      label: "Media mənbə 1",
+      href: "https://example.com/media-1"
     },
     {
-      label: "Bayraqdar.info xəbəri",
-      href: "https://www.bayraqdar.info/2024/02/21/sirvan-ur%C9%99k-m%C9%99rk%C9%99zind%C9%99-bir-ilk/"
+      label: "Media mənbə 2",
+      href: "https://example.com/media-2"
     },
     {
-      label: "Qafqazinfo.az xəbəri",
-      href: "https://qafqazinfo.az/news/detail/sirvan-urek-merkezinde-ilk-defe-aciq-urek-emelivyati-edildi-fotolar-427834"
+      label: "Media mənbə 3",
+      href: "https://example.com/media-3"
     }
   ]
 };

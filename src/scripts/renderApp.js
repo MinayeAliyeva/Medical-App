@@ -273,7 +273,7 @@ const renderHomePage = () => {
               </div>
             </div>
             <div class="col-lg-6 wow animate__animated animate__fadeInRight">
-              <h2 class="section-title">Niyə Dr. Beyrək?</h2>
+              <h2 class="section-title">Niyə Dr. Anonim?</h2>
               <p class="content-muted">
                 ${siteData.about.bio[0]}
               </p>
@@ -332,7 +332,7 @@ const renderAboutPage = () => `
               </defs>
               <rect width="500" height="600" fill="url(#docGrad)"></rect>
               <circle cx="250" cy="180" r="90" fill="rgba(255,255,255,0.15)" stroke="white" stroke-width="4"></circle>
-              <text x="250" y="200" text-anchor="middle" fill="white" font-size="56" font-weight="bold">Dr.B</text>
+              <text x="250" y="200" text-anchor="middle" fill="white" font-size="56" font-weight="bold">Dr.A</text>
               <rect x="100" y="320" width="300" height="25" rx="12" fill="rgba(255,255,255,0.25)"></rect>
               <rect x="120" y="365" width="260" height="18" rx="9" fill="rgba(255,255,255,0.15)"></rect>
               <rect x="120" y="395" width="230" height="18" rx="9" fill="rgba(255,255,255,0.15)"></rect>
@@ -638,15 +638,15 @@ const renderContactPage = () => `
             <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
             <div class="contact-details">
               <h5>Qısa Nömrə</h5>
-              <p><a href="tel:+994123060">${siteData.contact.mainClinic.shortPhone}</a></p>
+              <p><a href="tel:+994120000000">${siteData.contact.mainClinic.shortPhone}</a></p>
             </div>
           </div>
           <div class="contact-info-item">
             <div class="contact-icon"><i class="fas fa-mobile-alt"></i></div>
             <div class="contact-details">
               <h5>Telefon</h5>
-              <p><a href="tel:+994125993060">${siteData.contact.mainClinic.phone1}</a></p>
-              <p><a href="tel:+994508003060">${siteData.contact.mainClinic.phone2}</a></p>
+              <p><a href="tel:+994120000000">${siteData.contact.mainClinic.phone1}</a></p>
+              <p><a href="tel:+994500000000">${siteData.contact.mainClinic.phone2}</a></p>
             </div>
           </div>
           <div class="contact-info-item">
@@ -704,8 +704,8 @@ const renderContactPage = () => `
                     <label class="form-label text-dark" for="clinic">Hansı klinika?</label>
                     <select id="clinic" name="clinic" class="form-select form-control-light">
                       <option value="">Seçin...</option>
-                      <option value="Bakı">Lux International Hospital (Bakı)</option>
-                      <option value="Şirvan">Şirvan Diaqnostik Mərkəz</option>
+                      <option value="Bakı">Əsas Klinika (Bakı)</option>
+                      <option value="Region">Regional Diaqnostika Mərkəzi</option>
                       <option value="Hər ikisi">Hər ikisi</option>
                     </select>
                   </div>
@@ -812,7 +812,7 @@ export const renderApp = (routeKey = fallbackRoute) => `
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#/">
-        <i class="fas fa-heartbeat me-2"></i>Dr. Beyrək
+        <i class="fas fa-heartbeat me-2"></i>Dr. Anonim
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Navigasiyanı aç">
         <span class="navbar-toggler-icon"></span>
